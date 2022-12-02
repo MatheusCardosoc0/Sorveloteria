@@ -1,0 +1,46 @@
+.gradient-01 {
+  background-image: linear-gradient(
+    270deg,
+    rgb(248, 244, 0) 25%,
+    rgb(238, 238, 5) 26%,
+    rgb(255, 204, 2) 39%,
+    rgb(253, 221, 9) 50%,
+    rgb(244, 230, 169) 61%,
+    rgb(232, 234, 123) 74%,
+    rgb(225, 193, 35) 100%
+  );
+  filter: blur(120px);
+}
+
+.gradient-02 {
+  background-image: linear-gradient(
+    270deg,
+    rgb(232, 0, 248) 25%,
+    rgb(226, 5, 238) 26%,
+    rgb(145, 2, 255) 39%,
+    rgb(220, 9, 253) 50%,
+    rgb(232, 169, 244) 61%,
+    rgb(227, 123, 234) 74%,
+    rgb(225, 35, 200) 100%
+  );
+  filter: blur(120px);
+}
+
+.request_button{
+  background-image: linear-gradient(to right top, rgb(9, 241, 160), rgb(243, 195, 21), rgb(232, 17, 214));
+  width: 150px;
+  margin-inline: auto;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: bold;
+  color: aliceblue;
+  text-shadow: 2px 1px 0px black;
+  font-size: 21px;
+  animation: colors 4s ease-in-out infinite;
+  transition: 0.25s;
+}
+@keyframes colors {
+  10%{background-image: linear-gradient(to right top, rgb(241, 9, 187), rgb(21, 243, 236), rgb(221, 232, 17));}
+
+  60%{background-image: linear-gradient(to right top, rgb(226, 241, 9), rgb(232, 21, 243), rgb(17, 232, 221));}
+}

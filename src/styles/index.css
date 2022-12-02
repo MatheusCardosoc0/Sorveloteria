@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.invert-position{
+  transform: rotateY(180deg);
+}
+
+.section{
+  @apply w-full lg:max-w-[1248px] bg-gray-900 mx-auto 
+}
