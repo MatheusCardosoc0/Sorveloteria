@@ -8,6 +8,15 @@
   transform: rotateY(180deg);
 }
 
+body{
+  @apply bg-slate-900
+}
+
 .section{
   @apply w-full lg:max-w-[1248px] bg-gray-900 mx-auto 
+}
+
+
+.images{
+  transition: all ease-in 2s;
 }

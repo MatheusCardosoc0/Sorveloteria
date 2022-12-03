@@ -17,13 +17,13 @@ const Request = () => {
       </motion.div>
 
       <motion.div className='text-start flex flex-col justify-start sm:w-1/2 gap-8'
-        variants={slideIn('up', 'spring', 0.25, 1)}
+        variants={slideIn('left', 'spring', 0.25, 1)}
         initial="hidden"
         whileInView={"show"}>
 
         <TypingTitle text='Faça seu pedido' />
 
-        <TypingText text='Faça a escolha de nossos +200 sabores, a cada 4L de sorvete comprados você receberá um bilhete para concorrer a nossas Loterias mensais e ganhar prêmios unicos.' />
+        <TypingText text='Faça a escolha de nossos +200 sabores, a cada 4L de sorvete comprados você receberá um acesso a um bilhete digital de loteria em nosso aplicativo para concorrer a nossas Loterias mensais e ganhar prêmios unicos.' />
 
         <li className='flex sm:flex-row flex-col text-lg text-white gap-1'>
           <ul><a className='text-pink-500 hover:text-yellow-400 cursor-pointer'>#Prêmios</a></ul>/
