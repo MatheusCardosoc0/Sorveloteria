@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section className='section'>
 
-      <motion.div className="flex justify-between mx-6 p-4 bg-gradient-to-tr from-yellow-500 via-green-500/20 to-pink-400/20 rounded-t-xl flex-col sm:flex-row"
+      <motion.div className="flex justify-between p-4 bg-gradient-to-tr from-yellow-500 via-green-500/0 to-pink-600/70 rounded-t-xl flex-col sm:flex-row"
         variants={slideIn('right', 'tween', 0.25, 1)}
         initial="hidden"
         whileInView={"show"}>
