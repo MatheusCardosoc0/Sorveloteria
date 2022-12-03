@@ -5,7 +5,8 @@ import { fadeIn, slideIn } from "../utils/motion"
 
 const Footer = () => {
   return (
-    <section className='section'>
+    <section className='section'
+    id="footer">
 
       <motion.div className="flex justify-between p-4 bg-gradient-to-tr from-yellow-500 via-green-500/0 to-pink-600/70 rounded-t-xl flex-col sm:flex-row"
         variants={slideIn('right', 'tween', 0.25, 1)}

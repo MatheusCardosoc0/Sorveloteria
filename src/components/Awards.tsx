@@ -10,7 +10,8 @@ const Awards = () => {
   const [awardSelected, setAwardSelected] = useState<string>('img-1')
 
   return (
-    <section className='section flex flex-col'>
+    <section className='section flex flex-col'
+    id='awards'>
 
       <TypingTitle text='Prêmios' styleText='text-center pt-[64px]' />
 

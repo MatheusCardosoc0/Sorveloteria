@@ -5,7 +5,8 @@ import { zoomIn } from '../utils/motion'
 
 const About = () => {
   return (
-    <section className='section pb-12 flex flex-col gap-[40px]'>
+    <section className='section pb-12 flex flex-col gap-[40px]'
+    id='about'>
 
       <div className='px-4'>
         <TypingTitle text='Sobre a sorveloteria' styleText='mx-auto mt-[60px] mb-12' />
